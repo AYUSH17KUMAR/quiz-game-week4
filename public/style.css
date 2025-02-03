@@ -1,1 +1,70 @@
-/* Write your code from here
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; /* Increased width for better readability */
+}
+
+h1 {
+    color: #333;
+}
+
+#quiz {
+    margin: 15px 0;
+    text-align: left; /* Align question and options to the left */
+}
+
+label {
+    display: block; /* Make options stack vertically */
+    margin-bottom: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#score {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#finalScore {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#restart {
+    background-color: #28a745; /* Green */
+}
+
+#restart:hover {
+    background-color: #1e7e34; /* Darker green */
+}

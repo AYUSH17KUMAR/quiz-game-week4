@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Game</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Quiz Game</h1>
-    
-  // Write your code from here 
-
-
-  <script src="script.js"></script>
+    <div class="quiz-container">
+        <h1>Quiz Game</h1>
+        <div id="quiz"></div>
+        <button id="next">Next</button>
+        <p id="score"></p>
+        <div id="results" style="display:none;">
+            <h2>Quiz Results</h2>
+            <p id="finalScore"></p>
+            <button id="restart">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
